@@ -118,7 +118,11 @@
 
   .course .grid-list { grid-template-columns: 1fr 1fr; }
 
+/**
+   * BLOG
+   */
 
+  .blog-card .h3 { font-size: 2.4rem; }
 }
 
 
@@ -207,7 +211,11 @@
     padding-block-end: 25px;
   }
 
+/**
+   * BLOG
+   */
 
+  .blog-card { padding: 45px; }
 
 }
 
@@ -327,7 +335,11 @@
         font-size: 2.4rem;
     }
 
+/**
+   * BLOG
+   */
 
+  .blog-card { padding: 30px; }
 
 
 }
@@ -412,6 +424,17 @@
     .about-h3 {
         font-size: 3rem;
     }
+/**
+   * BLOG
+   */
+
+  .blog-card { padding: 45px; }
+
+  .blog-card .publish-date {
+    width: 80px;
+    height: 80px;
+  }
+
 
 
 }
