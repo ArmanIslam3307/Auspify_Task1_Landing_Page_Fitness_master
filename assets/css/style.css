@@ -607,7 +607,9 @@ body {
   #COURSE
 \*-----------------------------------*/
 
-.course-card .card-banner { margin-block-end: 30px; }
+.course-card .card-banner {
+  margin-block-end: 30px;
+}
 
 .course-card .card-content {
   position: relative;
@@ -635,13 +637,17 @@ body {
   transition: 0.25s ease;
 }
 
-.course-card .card-title:is(:hover, :focus) { color: #FFA200; }
+.course-card .card-title:is(:hover, :focus) {
+  color: #FFA200;
+}
 
 /*-----------------------------------*\
   #BLOG
 \*-----------------------------------*/
 
-.blog { background-color: #F7F5F3; }
+.blog {
+  background-color: #F7F5F3;
+}
 
 .blog-card {
   background-color: #FFFFFF;
@@ -697,7 +703,9 @@ body {
   margin-block-end: 10px;
 }
 
-.blog-card:is(:hover, :focus-within) .card-link { color: #FFA200; }
+.blog-card:is(:hover, :focus-within) .card-link {
+  color: #FFA200;
+}
 
 .blog-card .card-meta-item:not(:last-child)::after {
   background-color: #2C241B;
@@ -713,11 +721,38 @@ body {
   transition: 0.5s ease;
 }
 
-.blog-card:is(:hover, :focus-within) .card-title { color: #FFFFFF; }
+.blog-card:is(:hover, :focus-within) .card-title {
+  color: #FFFFFF;
+}
 
-.blog-card .card-text { font-size: 1.5rem; }
+.blog-card .card-text {
+  font-size: 1.5rem;
+}
 
+/*-----------------------------------*\
+  #BACK TO TOP
+\*-----------------------------------*/
 
+.back-top-btn {
+  position: fixed;
+  bottom: 10px;
+  right: 20px;
+  background-color: #FFA200;
+  color: #FFFFFF;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 50%;
+  box-shadow: 0 2px 30px #0000001A;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.25s ease;
+  z-index: 4;
+}
 
+.back-top-btn:is(:hover, :focus) { background-color: #353B41; }
 
-
+.back-top-btn.active {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(-10px);
+}

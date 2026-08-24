@@ -112,17 +112,21 @@
         font-size: 3rem;
     }
 
-/**
+    /**
    * COURSE
    */
 
-  .course .grid-list { grid-template-columns: 1fr 1fr; }
+    .course .grid-list {
+        grid-template-columns: 1fr 1fr;
+    }
 
-/**
+    /**
    * BLOG
    */
 
-  .blog-card .h3 { font-size: 2.4rem; }
+    .blog-card .h3 {
+        font-size: 2.4rem;
+    }
 }
 
 
@@ -193,29 +197,33 @@
         font-size: 5.7rem;
     }
 
-/**
+    /**
    * COURSE
    */
 
-  .course-card .card-price {
-    width: 80px;
-    height: 80px;
-    font-size: 2rem;
-    margin-block-start: -100px;
-  }
+    .course-card .card-price {
+        width: 80px;
+        height: 80px;
+        font-size: 2rem;
+        margin-block-start: -100px;
+    }
 
-  .course-card .h3 { font-size: 2.4rem; }
+    .course-card .h3 {
+        font-size: 2.4rem;
+    }
 
-  .course-card .card-content {
-    padding: 30px;
-    padding-block-end: 25px;
-  }
+    .course-card .card-content {
+        padding: 30px;
+        padding-block-end: 25px;
+    }
 
-/**
+    /**
    * BLOG
    */
 
-  .blog-card { padding: 45px; }
+    .blog-card {
+        padding: 45px;
+    }
 
 }
 
@@ -335,11 +343,13 @@
         font-size: 2.4rem;
     }
 
-/**
+    /**
    * BLOG
    */
 
-  .blog-card { padding: 30px; }
+    .blog-card {
+        padding: 30px;
+    }
 
 
 }
@@ -424,16 +434,19 @@
     .about-h3 {
         font-size: 3rem;
     }
-/**
+
+    /**
    * BLOG
    */
 
-  .blog-card { padding: 45px; }
+    .blog-card {
+        padding: 45px;
+    }
 
-  .blog-card .publish-date {
-    width: 80px;
-    height: 80px;
-  }
+    .blog-card .publish-date {
+        width: 80px;
+        height: 80px;
+    }
 
 
 
