@@ -112,7 +112,11 @@
         font-size: 3rem;
     }
 
+/**
+   * COURSE
+   */
 
+  .course .grid-list { grid-template-columns: 1fr 1fr; }
 
 
 }
@@ -185,6 +189,23 @@
         font-size: 5.7rem;
     }
 
+/**
+   * COURSE
+   */
+
+  .course-card .card-price {
+    width: 80px;
+    height: 80px;
+    font-size: 2rem;
+    margin-block-start: -100px;
+  }
+
+  .course-card .h3 { font-size: 2.4rem; }
+
+  .course-card .card-content {
+    padding: 30px;
+    padding-block-end: 25px;
+  }
 
 
 
