@@ -829,3 +829,114 @@ body {
   bottom: -50px;
   left: 20px;
 }
+
+/*-----------------------------------*\
+  #FOOTER
+\*-----------------------------------*/
+
+.footer-top {
+  background-color: #0A4D3C;
+  color: #FFFFFF;
+}
+
+.footer-top .container {
+  display: grid;
+  gap: 50px;
+}
+
+.footer-list-title {
+  color: #FFA200;
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-block-end: 28px;
+}
+
+.footer-form {
+  margin-block-start: 50px;
+}
+
+.footer-top .email-field {
+  background-color: #FFFFFF;
+  color: #2C241B;
+  padding: 11px 30px;
+  border-radius: 10px;
+  margin-block-end: 20px;
+}
+
+.footer-top .email-field::placeholder {
+  color: inherit;
+}
+
+.footer-top .btn-secondary {
+  border-radius: 10px;
+}
+
+.footer-top .btn-secondary:is(:hover, :focus) {
+  background-color: #FFFFFF;
+  color: #353B41;
+}
+
+.footer-link,
+.address {
+  font-size: 1.4rem;
+  margin-block-start: 12px;
+  transition: 0.25s ease;
+}
+
+.address-title {
+  margin-block: 12px;
+}
+
+.footer-link:is(:hover, :focus),
+.footer-bottom-link:is(:hover, :focus) {
+  color: #FFA200;
+}
+
+.footer-bottom {
+  background-color: #094435;
+  color: #FFFFFF;
+  font-size: 1.5rem;
+  text-align: center;
+  padding-block: 25px;
+}
+
+.copyright {
+  margin-block-end: 25px;
+}
+
+.copyright :is(.copyright-link, ion-icon) {
+  display: inline-block;
+  color: #FFA200;
+}
+
+.copyright ion-icon {
+  font-size: 18px;
+  margin-block-end: -4px;
+}
+
+.copyright-link:is(:hover, :focus) {
+  text-decoration: underline;
+}
+
+.footer-bottom-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  row-gap: 10px;
+}
+
+.footer-bottom-item {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.footer-bottom-item:not(:last-child)::after {
+  content: "-";
+  margin-inline: 10px;
+}
+
+.footer-bottom-link {
+  transition: 0.25s ease;
+}
