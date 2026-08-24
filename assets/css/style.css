@@ -749,10 +749,83 @@ body {
   z-index: 4;
 }
 
-.back-top-btn:is(:hover, :focus) { background-color: #353B41; }
+.back-top-btn:is(:hover, :focus) {
+  background-color: #353B41;
+}
 
 .back-top-btn.active {
   visibility: visible;
   opacity: 1;
   transform: translateY(-10px);
+}
+
+/*-----------------------------------*\
+  #APP
+\*-----------------------------------*/
+
+.app-card {
+  position: relative;
+  background-color: #FFA200;
+  padding: 30px;
+  border-radius: 2px;
+  text-align: center;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.app .section-subtitle {
+  font-size: 1.4rem;
+}
+
+.app .section-title {
+  color: #FFFFFF;
+  margin-block-end: 40px;
+}
+
+.app .wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.app .app-link {
+  background-color: #FFFFFF;
+  min-height: 50px;
+  padding-inline: 20px;
+  border-radius: 10px;
+  display: grid;
+  place-content: center;
+  outline: 4px solid #FFFFFF26;
+}
+
+.app .app-link .img {
+  width: 100px;
+}
+
+.app-card::before,
+.app-card::after {
+  content: "";
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  z-index: -1;
+}
+
+.app-card::before {
+  width: 80px;
+  height: 130px;
+  background-image: url('../images/app-shape-1.png');
+  top: -50px;
+  right: 20px;
+}
+
+.app-card::after {
+  width: 100px;
+  height: 150px;
+  background-image: url('../images/app-shape-2.png');
+  bottom: -50px;
+  left: 20px;
 }
